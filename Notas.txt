@@ -1,0 +1,13 @@
+-Botón "Start"/"Begin" que comience la secuencia del juego con el cronometro
+-Cronometro cuenta atrás desde 60, sin decimales
+-Al iniciar la partida no hay enemigos
+- Cada 5-10 segundos spawn enemigo aleatorio de los predeterminados en localización aleatoria de las predeterminadas.
+-Los personajes que re-spawneen tras el paso del tiempo deben estar desactivados (comprobar activeSelf en array)
+-Pantalla final de partida (EndScreen) con resultados (RewardAchieved) y botón de reintentar.
+
+Peronsaje: 	Tiempo:		Recompensa:
+BadGuy		5s		+500
+BadGuy2		3s		+750
+GoodGuy		4s		-50
+Lady		8s		-80
+Sheriff		10f		-100
